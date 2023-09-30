@@ -6,7 +6,7 @@ body:
     attributes:
       label: Your Discord tag line
       description: Discord username.
-      placeholder: @addman
+      placeholder: addman
     validations:
       required: true
 
