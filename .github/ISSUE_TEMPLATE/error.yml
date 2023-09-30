@@ -14,7 +14,7 @@ body:
     attributes:
       label: Discord Client ID
       description: You can get this by following this -> https://cdn.ooaddman.com/MxdapV
-      placeholder: 351132215700357131
+      placeholder: '351132215700357131'
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Discord Server ID
       description: You can get this by following this -> https://cdn.ooaddman.com/MxdapV
-      placeholder: 1136479351358107669
+      placeholder: '1136479351358107669'
     validations:
       required: true
 
