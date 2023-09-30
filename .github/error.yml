@@ -1,0 +1,65 @@
+name: Error
+description: Error message from Corvus.
+labels: ["Type: Error"]
+body:
+  - type: input
+    attributes:
+      label: Your Discord tag line
+      description: Discord username.
+      placeholder: '@addman'
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Discord Client ID
+      description: You can get this by following this -> https://cdn.ooaddman.com/MxdapV
+      placeholder: 351132215700357131
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Discord Server ID
+      description: You can get this by following this -> https://cdn.ooaddman.com/MxdapV
+      placeholder: 1136479351358107669
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Stack trace
+      description: The error message you got from Corvus. (You can send a screenshot)
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce (if known)
+      description: What to do in order to reproduce this issue
+      placeholder: |
+        Step 1: ..
+        Step 2: ..
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional info
+      description: Any other info you want to provide. Screenshots or videos are greatly helpful! 
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Let's make sure this report is valid
+      options:
+        - label: The bot has all the correct permissions
+          required: true
+        - label: I have made sure the player/players usernames are valid
+          required: true
+        - label: I ticked all of the boxes without actually reading them
+          required: false
+        - label: I have made this report without giving the bot time to work out the issue on it own
+          required: true
