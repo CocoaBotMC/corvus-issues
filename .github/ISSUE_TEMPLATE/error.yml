@@ -1,4 +1,4 @@
-name: Error
+name: Error Report
 description: Error message from Corvus.
 labels: ["Type: Error"]
 body:
