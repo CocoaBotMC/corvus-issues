@@ -1,0 +1,45 @@
+name: Suggestions
+description: Error message from Corvus.
+labels: ["Type: Suggestion"]
+body:
+  - type: input
+    attributes:
+      label: Your Discord tag line
+      description: Discord username.
+      placeholder: addman
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Discord Client ID
+      description: You can get this by following this -> https://cdn.ooaddman.com/MxdapV
+      placeholder: '351132215700357131'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Suggestion
+      description: Expalin your suggestion below with detail
+    validations:
+      required: true
+
+
+  - type: textarea
+    attributes:
+      label: Additional info
+      description: Any other info you want to provide. Screenshots or videos are greatly helpful! 
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Checklist
+      description: Lets make sure you filled this all out
+      options:
+        - label: You explained the suggestion to the best of your ability
+          required: true
+      options:
+        - label: You didnt read this at all and just ticked all the boxes with hope you wont get your issue closed
+          required: false
