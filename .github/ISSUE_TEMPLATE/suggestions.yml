@@ -1,5 +1,5 @@
 name: Suggestions
-description: A suggestion you have for the bot.
+description: Error message from Corvus.
 labels: ["Type: Suggestion"]
 body:
   - type: input
