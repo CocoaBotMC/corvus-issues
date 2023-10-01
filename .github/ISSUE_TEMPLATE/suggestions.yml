@@ -1,5 +1,5 @@
 name: Suggestions
-description: Error message from Corvus.
+description: A suggestion for Corvus.
 labels: ["Type: Suggestion"]
 body:
   - type: input
